@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/ajoutcandidat" element={<AjoutCandidat />} />
+        <Route path="/*" element={<AjoutCandidat />} />
       </Routes>
     </Router>
   );
